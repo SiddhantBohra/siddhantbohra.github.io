@@ -17,7 +17,7 @@ const NavBar = (props) => {
               <span><NavLink href="/aboutme" >About Me</NavLink></span>
             </NavItem>
             <NavItem>
-              <span><NavLink href="https://siddhantbohra.github.io/resume.html" target = "_blank">Resume</NavLink></span>
+              <span><NavLink href="https://drive.google.com/file/d/13C5GKCWIMiVCE6HLz7_UqneqD_ukvZhO/preview" target = "_blank">Resume</NavLink></span>
             </NavItem>
             <NavItem>
               <span><NavLink href="https://github.com/SiddhantBohra" target = "_blank">GitHub</NavLink></span>

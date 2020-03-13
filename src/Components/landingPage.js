@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
+import aboutMe from './aboutMe'
 export default class landingPage extends Component {
     render() {
         return (
-            <div>
                 <div id='landingPage'>
                     <Grid className='landing-grid'>
                         <Cell col={12}>
@@ -30,8 +30,8 @@ export default class landingPage extends Component {
                             </div>
                         </Cell>
                     </Grid>
+                    
                 </div>
-            </div>
         )
     }
 }

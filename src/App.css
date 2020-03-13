@@ -67,6 +67,18 @@ left: 0;
   padding : 8px;  
 }
 
+.aboutme h1{
+  text-decoration: underline !important;
+  font-size: 45px !important;
+
+}
+.aboutme p{
+  font-size: 25px;
+  padding-left: 100px;
+  padding-right:100px;
+  padding-top: 40px;
+}
+
 .aboutme{
   height: 400px;
   background: #141E30;  
@@ -74,4 +86,5 @@ background: -webkit-linear-gradient(to right, #243B55, #141E30);
 background: linear-gradient( to right, #24243e, #302b63, #0f0c29 );
    width: 100%; 
    text-align: center; 
+   color: white;
 }
