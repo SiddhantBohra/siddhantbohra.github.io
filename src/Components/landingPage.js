@@ -30,7 +30,6 @@ export default class landingPage extends Component {
                             </div>
                         </Cell>
                     </Grid>
-                    
                 </div>
         )
     }
