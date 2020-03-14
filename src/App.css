@@ -1,22 +1,20 @@
 .App {
   text-align: center;
 }
-
+#facolor{
+  color: #473be7 !important;
+}
 .navbar {
-  /* background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045) !important; W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: #833ab4; /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #833ab4, #fd1d1d, #fcb045) !important;  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+background: #000113;
 }
 .ml-auto > {
   color: white !important;
 }
 #landingPage{
-height: 650px !important;
+height: auto !important;
 background: #833ab4; /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #c33764, #1d2671); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 width: 100%;
 text-align: center;
 position: relative;
@@ -36,7 +34,9 @@ left: 0;
   width: 75%;
   margin: auto;
   border-radius: 10px;
+  margin-bottom: 135px;
 }
+
 .banner-text h1{
   font-size: 66px;
   font-weight: bold;
@@ -67,23 +67,24 @@ left: 0;
   padding : 8px;  
 }
 
-.aboutme h1{
+#aboutme h1{
   text-decoration: underline !important;
   font-size: 45px !important;
+  padding-top: 50px;
 }
-.aboutme p{
+#aboutme p{
   font-size: 25px;
   padding-left: 100px;
   padding-right:100px;
-  padding-top: 40px;
+  padding-top: 25px;
 }
 
-.aboutme{
-  height: 400px;
-  background: #141E30;  
+#aboutme{
+  height: max-content;
+  background: white;  
 background: -webkit-linear-gradient(to right, #243B55, #141E30); 
-background: linear-gradient( to right, #24243e, #302b63, #0f0c29 );
+background: linear-gradient(to right, #e0eafc, #cfdef3);
    width: 100%; 
    text-align: center; 
-   color: white;
+   color:black;
 }
