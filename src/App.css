@@ -1,15 +1,14 @@
 .App {
   text-align: center;
 }
-#facolor{
-  color: #473be7 !important;
-}
+
 .navbar {
 background: #000113;
 }
-.ml-auto > {
+.ml-auto {
   color: white !important;
 }
+
 #landingPage{
 height: auto !important;
 background: #833ab4; /* fallback for old browsers */
@@ -24,11 +23,12 @@ left: 0;
 
 .avatar-img{
 
-  height: 275px;
+  height: 350px;
   padding-top: 5em;
   padding-bottom: 2em;
 }
 .banner-text{
+  padding-top: 25px;
   background-color: black;
   opacity: 0.8;
   width: 75%;
@@ -67,24 +67,32 @@ left: 0;
   padding : 8px;  
 }
 
+#aboutme {
+  height: auto;
+  background: white;  
+   width: 100%; 
+   text-align: center; 
+   color:black;
+}
+
+
 #aboutme h1{
+  color:darkslateblue;
   text-decoration: underline !important;
   font-size: 45px !important;
   padding-top: 50px;
 }
 #aboutme p{
+  color: darkslateblue;
   font-size: 25px;
   padding-left: 100px;
   padding-right:100px;
   padding-top: 25px;
+  padding-bottom: 100px;
 }
 
-#aboutme{
-  height: max-content;
-  background: white;  
-background: -webkit-linear-gradient(to right, #243B55, #141E30); 
-background: linear-gradient(to right, #e0eafc, #cfdef3);
-   width: 100%; 
-   text-align: center; 
-   color:black;
+#contact {
+  background: linear-gradient(to top, #8e2de2, #4a00e0);
+  height: auto;
+  width: auto;
 }
