@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
 import aboutMe from './aboutMe'
 export default class landingPage extends Component {
+    
     render() {
         return (
             <div id='landingPage'>
