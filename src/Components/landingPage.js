@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
-import aboutMe from './aboutMe'
+import AboutMe from './AboutMe'
+import Contact from './contact'
 import $ from 'jquery'
 import document from 'jquery'
 export default class landingPage extends Component {
@@ -15,7 +16,7 @@ export default class landingPage extends Component {
                             className="avatar-img"
                         />
                         <div className='banner-text'>
-                            <h1>Full Stack Developer</h1>
+                            <h1>FULL STACK DEVELOPER</h1>
                             <hr />
                             <p>Javascript | Node.JS | Express | MongoDB | AWS | Docker | Kubernetes | React | HTML | CSS | Bootstrap</p>
                             <div className="social-links" >
@@ -32,10 +33,7 @@ export default class landingPage extends Component {
                         </div>
                     </Cell>
                 </Grid>
-                <div id='aboutme'>
-                    <h1>About Me</h1>
-                    <p>Full Stack Web Developer using MongoDB, Express, React, Node.js (MERN) with an emphasis on Backend web development as well as AWS, Docker and Kubernetes, experienced in building applications, RESTful APIs using Node.js and Express, User Auth and OAuth with PassportJS. Common libraries of use: Axios, Mongoose, Lodash, Express, body-parser, socket.io, Bluebird, react-router. Common use of UI libraries: Bootstrap 4, React-Bootstrap, Material-UI, Elemental-UI. </p>
-                </div>
+                <AboutMe />
             </div>
         )
     }

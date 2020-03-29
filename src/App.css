@@ -3,31 +3,39 @@
 }
 
 .navbar {
-background: #000113;
+  background: #000113;
 }
 .ml-auto {
   color: white !important;
 }
 
-#landingPage{
-height: auto !important;
-background: #833ab4; /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #c33764, #1d2671); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-width: 100%;
-text-align: center;
-position: relative;
-top: 0;
-left: 0;
+#landingPage {
+  height: auto !important;
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #833ab4,
+    #fd1d1d,
+    #fcb045
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #c33764,
+    #1d2671
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
-.avatar-img{
-
-  height: 350px;
-  padding-top: 5em;
+.avatar-img {
+  height: 450px;
+  padding-top: 10em;
   padding-bottom: 2em;
 }
-.banner-text{
+.banner-text {
   padding-top: 25px;
   background-color: black;
   opacity: 0.8;
@@ -37,56 +45,62 @@ left: 0;
   margin-bottom: 135px;
 }
 
-.banner-text h1{
-  font-size: 66px;
-  font-weight: bold;
+.banner-text h1 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.5em;
   color: white;
   text-align: center;
 }
-.banner-text hr{
+.banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
 }
-.banner-text p{
+.banner-text p {
   color: white;
   font-size: 20px;
   padding: 1em;
   text-align: center;
 }
-.social-links{
+.social-links {
   display: flex;
   justify-content: space-between;
   width: 50%;
   margin: auto;
+  padding-bottom: 50px;
+}
+.social-links i {
+  color: #473be7;
+  font-size: 40px;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+.social-links i:hover {
+  background-color: white;
+  transition: 0.5s;
+}
 
-}
-.social-links i{
-  color:#473be7;
-  font-size: 3em;
-  padding : 8px;  
-}
 
 #aboutme {
+  padding: 50px;
   height: auto;
-  background: white;  
-   width: 100%; 
-   text-align: center; 
-   color:black;
+  background: white;
+  width: 100%;
+  text-align: center;
+  color: black;
 }
 
-
-#aboutme h1{
-  color:darkslateblue;
+#aboutme h1 {
+  color: darkslateblue;
   text-decoration: underline !important;
-  font-size: 45px !important;
+  font-size: 55px !important;
   padding-top: 50px;
 }
-#aboutme p{
+#aboutme p {
   color: darkslateblue;
   font-size: 25px;
-  padding-left: 100px;
-  padding-right:100px;
   padding-top: 25px;
   padding-bottom: 100px;
 }
@@ -94,5 +108,5 @@ left: 0;
 #contact {
   background: linear-gradient(to top, #8e2de2, #4a00e0);
   height: auto;
-  width: auto;
+  width: 100%;
 }

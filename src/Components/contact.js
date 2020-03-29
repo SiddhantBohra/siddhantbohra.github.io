@@ -1,10 +1,15 @@
 import React, { Component } from 'react'
+import {Container} from 'reactstrap'
 
-export default class contact extends Component {
+export default class Contact extends Component {
     render() {
         return (
             <div className = 'contact'>
-            <h1>Contact Page</h1>
+                <section id="contact">
+                    <Container className = "Container">
+
+                    </Container>
+                </ section>
             </div>
         )
     }
